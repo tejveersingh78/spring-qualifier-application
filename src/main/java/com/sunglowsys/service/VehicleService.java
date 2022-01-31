@@ -9,7 +9,7 @@ import org.springframework.stereotype.Component;
 public class VehicleService {
 
     @Autowired
-    @Qualifier("carBeen")
+    @Qualifier("carBean")
     private Vehicle vehicle;
 
     public void service() {
